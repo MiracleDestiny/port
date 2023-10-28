@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.project {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    nav.active {
+        display: block;
+    }
+}
+
+#cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.cover-text {
+    flex: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
